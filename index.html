@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./dist/output.css" rel="stylesheet">
 	<title>Todo list</title>
+	<script src="https://kit.fontawesome.com/26e84a755f.js" crossorigin="anonymous"></script>	<meta charset="UTF-8">
 </head>
 <body>
-
+	<p class="text-xl text-cyan-800 w-full text-center mt-4">Todo List</p>
+	<div class="flex mt-6 gap-10 flex-col items-center">
+		<div class="flex w-full justify-center gap-4 h-9" id="search-container">
+			<input class="border outline-none py-1 px-2" type="text" name="" id="search-bar" placeholder="Sport, Drink, Sleep ...">
+			<button class="text-md text-white bg-[#1c2930] px-4 rounded-sm hover:scale-[1.02] ease-in-out duration-400" id="search-button">ADD</button>
+		</div>
+		<div class="flex flex-col gap-4" id = "todo-list">
+			<!-- items -->
+		</div>
+	</div>
 </body>
+<script src="scripts/main.js"></script>
 </html>
